@@ -9,7 +9,6 @@ function buildMetadata(sample) {
     Object.entries(data).forEach(([key,value])=>{
       var row=tbody.append('tr')
       row.append('td').text(`${key}: ${value}`)
-      row.append('td').text('')
     })
     // BONUS: Build the Gauge Chart
     // buildGauge(data.WFREQ);
